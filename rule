@@ -4,7 +4,9 @@ name = hubtodate-tests
 
 [release]
 match = main.gpg
-install = mv -f main.gpg /usr/local/bin
+install = mv -f main.gpg /usr/local/bin/hubtodate-tests && \
+  chmod +x /usr/local/bin/hubtodate-tests && \
+  hubtodate-tests
 
 [verification]
 sha256sums = SHA256sums.txt
