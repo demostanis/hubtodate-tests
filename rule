@@ -1,0 +1,13 @@
+[repository]
+owner = demostanis
+name = hubtodate-tests
+
+[release]
+match = main.gpg
+install = mv -f main.gpg /usr/local/bin
+
+[verification]
+sha256sums = SHA256sums.txt
+gpgkey = CA6BE13227DFDCDE248EA199A6AF79102D10A5DC
+ 
+

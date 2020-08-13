@@ -1,1 +1,1 @@
-eca9dd7ce318a0ea3ea5ce27c033cf4b07bb3ab700c2c9c749b8824afdb24e5c  ./main
+66155a892ea695647a859de9ae6d68bc188b39cfe5e8aed33dff56470dee3fff  ./main.gpg

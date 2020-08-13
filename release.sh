@@ -1,8 +1,8 @@
 #! /usr/bin/env sh
 
 if test -f ./main; then
-  sha256sum ./main > SHA256sums.txt
   gpg --sign ./main
+  sha256sum ./main.gpg > SHA256sums.txt
 else
   make build
   ./release.sh
